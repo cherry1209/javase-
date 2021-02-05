@@ -1,0 +1,80 @@
+1.新建步骤
+第一步：
+    弹出Welcome窗口，点击create project
+      注意：在IDEA中一个project相当于eclipse当中的一个workspace。
+    
+第二步：
+    新建一个Empty Project
+    新建一个空的工程，选择创建工程窗口下面“最后的那一项”，Empty Project
+    
+第三步：
+    给空的工程起一个名字：Javase
+    存储到：
+    点击finish
+    
+第四步：
+    会自动弹出一个：project structure，这个窗口先取消掉。
+    
+第五步：
+    在空的工程下新建Module（模块），IDEA中模块类似于eclipse当中的project。
+    eclipse的组织方式：
+       workspace-->project
+    idea的组织方式：
+    project --> module
+    
+    怎么创建module？
+       file菜单 --> new --> Module
+       
+第六步：在new Module窗口上点击左上角的java，然后next
+
+第七步：给module起一个名字：chapter15
+
+第八步:编写代码，在输出入目录下新建类，写代码，并运行。
+
+2、关于IDEA工具的快捷键以及一些简单的设置
+   2.1字体设置
+     file --> settings --> 输入font --> 设置字体样式以及字体大小
+     
+   2.2快速生成main方法：
+      psvm
+   
+   2.3快速生成System.out.println();
+      sout
+      
+   2.4注意：IDEA是自动保存，不需要Ctrl + s
+   
+   2.5删除一行：Ctrl + y
+   
+   2.6怎么运行：
+      代码上右键 --> run
+      或者点击左侧的绿色箭头。
+      
+   2.7左侧的窗口中的列表怎么展开？怎么关闭？
+      左箭头关闭。
+      右箭头展开。
+      上下箭头移动。
+      
+   2.8 idea中退出任何窗口，都可以使用esc键盘。
+   
+   2.9任何新增/新建/添加的快捷键是：
+      alt + insert
+      
+   2.10窗口变大，变小
+      Ctrl + shift + F12
+      
+   2.11切换java程序：从HelloWorld切换到User
+      alt + 左箭头
+      或者
+      alt + 右箭头
+      
+  2.12切换窗口：
+      alt + 标号
+	  
+  2.13注释：
+      单行注释：Ctrl + /
+	  多行注释：ctrl + shift + /
+	  
+  2.14 idea中怎么定位方法/属性/变量
+      光标停到某个单词的下面，这个单词可能是：
+	    方法名、变量名
+      停到单词下面之后，按Ctrl键，出现下划线，点击跳转。
